@@ -1,0 +1,29 @@
+.GIF {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin: 1.5rem;
+}
+button {
+  padding: 1.5rem 3rem;
+  color: pink;
+  font-weight: bold;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+}

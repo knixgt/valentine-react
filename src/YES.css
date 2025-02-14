@@ -1,0 +1,18 @@
+.YES {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.YESimg {
+  height: 60vh;
+}
+.YEStxt {
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: small;
+}
+.YESbtn {
+  font-weight: 1000;
+  font-size: large;
+}
